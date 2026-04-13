@@ -2,7 +2,7 @@
 
 Demo ứng dụng render một tam giác - đơn bị hình học cơ bản của GPU sử dụng Metal từ dữ liệu tọa độ kiểu UIKit.
 
-![Triangle on iOS simulator](TriangleDemo/TriangleDemo/Assets.xcassets/simulator_screenshot_EF3547FA-9328-4D83-A62F-D9D425799396.imageset/simulator_screenshot_EF3547FA-9328-4D83-A62F-D9D425799396.png)
+<img src="TriangleDemo/TriangleDemo/Assets.xcassets/simulator_screenshot_EF3547FA-9328-4D83-A62F-D9D425799396.imageset/simulator_screenshot_EF3547FA-9328-4D83-A62F-D9D425799396.png" alt="Triangle on iOS simulator" width="280" />
 
 ## Mục tiêu project
 
@@ -29,8 +29,3 @@ Project tiếp cận với tư duy đơn giản:
 - **Chọn một hệ tọa độ logic duy nhất cho app**: UIKit points để dev dễ nhập/chỉnh.
 - **Giữ data layout nhất quán CPU/GPU**: Swift ghi kiểu gì, shader đọc đúng kiểu đó.
 
-## Chạy project
-
-- Mở `TriangleDemo.xcodeproj` bằng Xcode.
-- Chọn simulator hoặc thiết bị iOS(iPhone, iPad).
-- Build & Run để thấy tam giác được render bằng Metal.
